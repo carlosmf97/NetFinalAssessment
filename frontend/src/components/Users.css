@@ -1,0 +1,121 @@
+.tableContainer{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.usersTable{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    /* border: 2px solid black; */
+    /* border-collapse: collapse; */
+}
+
+
+.usersTable td{
+    min-width: 200px;
+    /* border: 2px solid black; */
+    padding: 20px;
+
+}
+.usersTable th{
+    padding: 10px;
+    min-width: 20%;
+    border-bottom: 2px solid black;
+
+}
+
+.homeButton{
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    min-height: 50px;
+    width: 200px;
+    
+    text-align: center;
+}
+
+.homeButton a{
+    text-decoration: none;
+    width: 100%;
+    min-height: 50px;
+    color: black;
+}
+
+.homeButton:hover{
+    background-color: black;
+    color: white;
+}
+
+.homeButton:hover a{
+    background-color: black;
+    color: white;
+}
+
+
+.deleteButton{
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 25px;
+    margin-top: 30px;
+    min-height: 50px;
+    width: 200px;
+    
+    text-align: center;
+}
+
+.deleteButton a{
+    text-decoration: none;
+    width: 100%;
+    min-height: 50px;
+    color: white;
+}
+
+.deleteButton:hover{
+    background-color: white;
+    color: red;
+}
+
+.deleteButton:hover a{
+    background-color: white;
+    color: red;
+}
+
+
+.updateButton{
+    margin: 0 auto;
+    border: 2px solid #1c3b69;
+    border-radius: 10px;
+    background-color:#1c3b69;
+    font-size: 25px;
+    margin-top: 30px;
+    min-height: 50px;
+    width: 200px;
+    color:white;
+    text-align: center;
+}
+
+.updateButton a{
+    text-decoration: none;
+    width: 100%;
+    min-height: 50px;
+    color: white;
+}
+
+.updateButton:hover{
+    background-color: white;
+    color: #1c3b69;
+}
+
+.updateButton:hover a{
+    background-color: white;
+    color: #1c3b69;
+}

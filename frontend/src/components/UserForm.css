@@ -1,0 +1,37 @@
+.userForm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+form input{
+
+    margin-top: 10px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    font-size: 20px;
+}
+
+form label{
+    margin-top: 20px;
+    font-size: 25px;
+    width: 100%;
+    
+
+}
+
+.inputSubmit{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    min-height: 50px;
+}
+
+.inputSubmit:hover{
+    background-color: black;
+    color: white;
+}

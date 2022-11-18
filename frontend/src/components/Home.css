@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+#root{
+    margin-top: 10%;
+}
+.homediv{
+    margin-top: 20%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 200px;
+    text-align: center;
+}
+
+.imgHome{
+    width: 200px;
+    min-height: 200px;
+}
