@@ -34,8 +34,7 @@ export default function Users(){
         <tr>
             <th>Name</th>
             <th>Surname</th>
-            <th>Email</th>
-            <th>Phone number</th>
+            <th>Driver License</th>
             <th>Vehicles</th>
             <th>Update</th>
             <th>Delete</th>

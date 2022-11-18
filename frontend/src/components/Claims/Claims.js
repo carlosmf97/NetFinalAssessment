@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import User from "./User";
-import "./Users.css"
+import User from "../User";
+import "../Users.css"
 
 export default function Users(){
 

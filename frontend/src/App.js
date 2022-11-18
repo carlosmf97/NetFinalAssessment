@@ -1,9 +1,13 @@
+import React from "react";
 import './App.css';
 import UserForm from './components/UserForm';
 import Home from './components/Home';
 import Users from './components/Users';
+import Vehicles from "./components/Vehicles/Vehicles"
+import VehicleForm from "./components/Vehicles/VehicleForm"
+import Claims from "./components/Claims/Claims"
+import ClaimForm from "./components/Claims/ClaimForm"
 import Delete from './components/Delete';
-import React from "react";
 
 import {
   BrowserRouter,

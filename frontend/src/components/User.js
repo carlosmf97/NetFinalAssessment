@@ -20,8 +20,7 @@ export default function User(props){
             <tr>
                 <td>{props.props.username}</td>
                 <td>{props.props.lastname}</td>
-                <td>{props.props.email}</td>
-                <td>{props.props.phone}</td>
+                <td>{props.props.driverLicense}</td>
                 <td><button className="updateButton" onClick={redirectVehicles}>Vehicles</button></td>
                 <td><button className="updateButton" onClick={clickUpdateHandler}>Update</button></td>
                 <td><button className="deleteButton" onClick={clickDeleteHandler}>Delete</button></td>

@@ -35,10 +35,9 @@ export default function UserForm() {
 
     let user = {
         id: searchParams.get("id"),
-        username: document.getElementsByClassName("inputName")[0].value,
-        lastname: document.getElementsByClassName("inputSurname")[0].value,
-        email: document.getElementsByClassName("inputEmail")[0].value,
-        phone: document.getElementsByClassName("inputPHone")[0].value
+        name: document.getElementsByClassName("inputName")[0].value,
+        surname: document.getElementsByClassName("inputSurname")[0].value,
+        driverLicense: document.getElementsByClassName("inputEmail")[0].value,
     }
 
     console.log(user);
@@ -86,18 +85,11 @@ export default function UserForm() {
           className="inputSurname"
           defaultValue={userData.lastname}
         />
-        <label>Email:</label>
-        <input
-          type="email"
-          className="inputEmail"
-          defaultValue={userData.email}
-        />
-        <label>Phone number:</label>
+        <label>Driver License:</label>
         <input
           type="text"
-          maxLength={9}
-          className="inputPHone"
-          defaultValue={userData.phone}
+          className="inputEmail"
+          defaultValue={userData.email}
         />
         <input type="submit" className="inputSubmit" onClick={submitHandler} />
       </form>

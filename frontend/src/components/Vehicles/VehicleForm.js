@@ -1,5 +1,5 @@
 import React from "react";
-import "./UserForm.css";
+import "../UserForm.css";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useEffect } from "react";
@@ -78,26 +78,22 @@ export default function VehicleForm() {
         <input
           type="text"
           className="inputBrand"
-          defaultValue={userData.username}
         />
         <label>VIN:</label>
         <input
           type="text"
           className="inputVin"
-          defaultValue={userData.lastname}
         />
         <label>Color:</label>
         <input
           type="email"
           className="inputColor"
-          defaultValue={userData.email}
         />
         <label>Year:</label>
         <input
           type="text"
           maxLength={4}
           className="inputYear"
-          defaultValue={userData.phone}
         />
         <input type="submit" className="inputSubmit" onClick={submitHandler} />
       </form>

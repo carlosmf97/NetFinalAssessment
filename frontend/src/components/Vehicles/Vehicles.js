@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { redirect } from "react-router";
-import User from "./User";
-import "./Users.css"
+import User from "../User";
+import "../Users.css"
 
 export default function Vehicles(){
 
@@ -24,7 +25,7 @@ export default function Vehicles(){
 
         fetch(url, requestOptions)
         .then(response => response.json())
-        .then(response => setUserData(response))
+        .then(response => setVehicleData(response))
         .catch(error => console.log('error', error));
     }, []);
 
@@ -46,7 +47,7 @@ export default function Vehicles(){
             <th>Update</th>
             <th>Delete</th>
         </tr>
-        {userData.map( element => { return <User props={element}/>})}
+        {vehicleData.map( element => { return <User props={element}/>})}
     </table>
 
     <button className="homeButton"><a href="/">Back to Home</a></button>
